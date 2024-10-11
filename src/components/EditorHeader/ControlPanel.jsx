@@ -1335,17 +1335,17 @@ export default function ControlPanel({
     },
     help: {
       shortcuts: {
-        function: () => window.open("/shortcuts", "_blank"),
+        function: () => window.open(packageInfo.homepage + "/shortcuts", "_blank"),
         shortcut: "Ctrl+H",
       },
       ask_on_discord: {
         function: () => window.open("https://discord.gg/BrjZgNrmR6", "_blank"),
       },
       report_bug: {
-        function: () => window.open("/bug-report", "_blank"),
+        function: () => window.open(packageInfo.homepage + "/bug-report", "_blank"),
       },
       feedback: {
-        function: () => window.open("/survey", "_blank"),
+        function: () => window.open(packageInfo.homepage + "/survey", "_blank"),
       },
     },
   };
