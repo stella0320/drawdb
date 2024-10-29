@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 import Editor from "./pages/Editor";
 import Survey from "./pages/Survey";
+import TableSummary from "./pages/TableSummary"
 import BugReport from "./pages/BugReport";
 import Shortcuts from "./pages/Shortcuts";
 import Templates from "./pages/Templates";
@@ -22,6 +23,14 @@ export default function App() {
             element={
               <ThemedPage>
                 <Editor />
+              </ThemedPage>
+            }
+          />
+          <Route
+            path="/tableSummary"
+            element={
+              <ThemedPage>
+                <TableSummary />
               </ThemedPage>
             }
           />

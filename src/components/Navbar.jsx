@@ -32,6 +32,12 @@ export default function Navbar() {
               Editor
             </Link>
             <Link
+              to="/tableSummary"
+              className="text-lg font-semibold hover:text-sky-800 transition-colors duration-300"
+            >
+              Table Summary
+            </Link>
+            <Link
               to="/templates"
               className="text-lg font-semibold hover:text-sky-800 transition-colors duration-300"
             >
