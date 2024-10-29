@@ -11,6 +11,7 @@ const zh_tw = {
     file: "檔案",
     new: "新增",
     new_window: "新視窗",
+    table_summary: "表格報表",
     open: "開啟",
     save: "儲存",
     save_as: "另存新檔",

@@ -11,6 +11,7 @@ const en = {
     file: "File",
     new: "New",
     new_window: "New window",
+    table_summary: "Table summary",
     open: "Open",
     save: "Save",
     save_as: "Save as",

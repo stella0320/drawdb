@@ -732,6 +732,17 @@ export default function ControlPanel({
           newWindow.name = window.name;
         },
       },
+      table_summary: {
+        function: () => {
+          // for chrome extention
+          const tableSummaryReport = window.open(packageInfo.homepage + "/tableSummary", "_blank");
+          // for normal
+          // const tableStructureReport = window.open("./tableStructure", "_blank");
+          tableSummaryReport.name = window.name;
+
+        },
+        
+      },
       open: {
         function: open,
         shortcut: "Ctrl+O",
