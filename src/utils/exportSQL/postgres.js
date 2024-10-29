@@ -60,7 +60,7 @@ export function toPostgres(diagram) {
         }${table.fields
           .map((field) =>
             field.comment.trim() !== ""
-              ? `COMMENT ON COLUMN ${table.name}.${field.name} IS '${field.comment}';\n`
+              ? `COMMENT ON COLUMN "${table.name}"."${field.name}" IS '${field.comment}';\n`
               : "",
           )
           .join("")}${table.indices
